@@ -7,7 +7,7 @@ class Hash
     arguments.each do |place|
       self.each do |key, val|
         binding.pry
-        if place == key 
+        if val == place 
          return val 
         end
       end
