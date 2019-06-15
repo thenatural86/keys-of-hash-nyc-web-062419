@@ -9,7 +9,7 @@ class Hash
         binding.pry
        if arguments == key 
          return val 
-       end
+          end
        end
     end
   end
