@@ -6,9 +6,9 @@ class Hash
     array = []
     arguments.each do |place|
       self.each do |key, val|
-        binding.pry
         if val == place 
          array << key
+        binding.pry
         end
       end
     end
