@@ -6,6 +6,7 @@ class Hash
     array = []
     arguments.each do |place|
       self.each do ||
+        binding.pry
        if arguments == key 
          return val 
        end
