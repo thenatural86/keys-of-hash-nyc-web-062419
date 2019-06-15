@@ -7,6 +7,7 @@ class Hash
     arguments.each do |key, val|
        if arguments == key 
          return val 
+       end
     end
   end
 end
