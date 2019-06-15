@@ -4,7 +4,7 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
     array = []
-    arguments.each do |key, val|
+    arguments.each do |key
        if arguments == key 
          return val 
        end
