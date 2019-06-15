@@ -10,6 +10,7 @@ class Hash
        if arguments == key 
          return val 
        end
+       end
     end
   end
 end
