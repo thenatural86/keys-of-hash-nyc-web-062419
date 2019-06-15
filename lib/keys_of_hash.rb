@@ -8,7 +8,7 @@ class Hash
       self.each do |key, val|
         binding.pry
         if val == place 
-         return val 
+         array << val 
         end
       end
     end
